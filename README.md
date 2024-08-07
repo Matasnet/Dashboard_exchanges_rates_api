@@ -16,11 +16,12 @@ Jest to interaktywna aplikacja webowa do analizy historycznych i bieżących kur
 
 ## Instalacja
 Zainstaluj wymagane biblioteki:
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 ## Uruchomienie
 Aby uruchomić aplikację, wykonaj poniższe polecenie:
 ```bash
 python app.py
+```
