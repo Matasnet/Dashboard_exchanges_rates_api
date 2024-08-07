@@ -15,20 +15,13 @@ Jest to interaktywna aplikacja webowa do analizy historycznych i bieżących kur
 - **Źródło danych**: [Frankfurter API](https://api.frankfurter.app)
 
 ## Instalacja
-1. Skopiuj repozytorium:
-    ```bash
-    git clone https://github.com/TwojeRepozytorium/analiza-kursow-walut.git
-    ```
-2. Przejdź do katalogu projektu:
-    ```bash
-    cd analiza-kursow-walut
-    ```
-3. Zainstaluj wymagane biblioteki:
-    ```bash
-    pip install -r requirements.txt
-    ```
+Zainstaluj wymagane biblioteki:
+```bash
+pip install -r requirements.txt
+```
 
 ## Uruchomienie
 Aby uruchomić aplikację, wykonaj poniższe polecenie:
 ```bash
 python app.py
+```

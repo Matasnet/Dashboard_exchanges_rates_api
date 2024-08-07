@@ -13,7 +13,9 @@ response = requests.get('https://api.frankfurter.app/currencies')
 currencies = response.json()
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app.title = "Aplikacja do analizy kursów walut" 
 app.config.suppress_callback_exceptions = True
+server = app.server
 
 app.layout = html.Div([
     html.H2('Dash Tab Template'),
