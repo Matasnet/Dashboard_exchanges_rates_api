@@ -221,7 +221,7 @@ def update_comparison_graph(base_currency, compare_currencies, start_date, end_d
             rates = response.json()['rates']
             dates = list(rates.keys())
             exchange_rates = [rates[date][currency] for date in dates]
-            data.append({'x': dates, 'y': exchange_rates, 'type': 'line', 'name': f'Kurs {base_currency} do {currency}'})
+            data.append({'x': dates, 'y': exchange_rates, 'type': 'line', 'name': f'{base_currency} do {currency}'})
         
         return {
             'data': data,
