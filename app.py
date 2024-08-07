@@ -18,7 +18,7 @@ app.config.suppress_callback_exceptions = True
 server = app.server
 
 app.layout = html.Div([
-    html.H2('Dash Tab Template'),
+    html.H2('Analiza kursów walutowych z wykorzystaniem API'),
 
     dcc.Tabs(
         id='tabs-1',
